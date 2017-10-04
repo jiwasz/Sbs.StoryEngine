@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallBasketStudios.Audio.Repository", "..\SmallBasketStudios.Audio.Repository\SmallBasketStudios.Audio.Repository.csproj", "{3D4F1242-34BD-49CE-9448-5778162A962F}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallBasketStudios.Audio.Data", "SmallBasketStudios.Audio.Data\SmallBasketStudios.Audio.Data.csproj", "{BA69CE9A-622E-4467-B25B-6CEA4A641C63}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallBasketStudios.Audio.Test", "SmallBasketStudios.Audio.Test\SmallBasketStudios.Audio.Test.csproj", "{8100E68B-4220-4CCC-A628-755A242B7CB0}"
@@ -13,16 +11,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallBasketStudios.Audio.Ap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallBasketStudios.Audio.WebLibrary", "SmallBasketStudios.Audio.WebLibrary\SmallBasketStudios.Audio.WebLibrary.csproj", "{1A41D9D4-8174-4E1C-8A12-520863D0A8AE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallBasketStudios.Audio.Repository", "SmallBasketStudios.Audio.Repository\SmallBasketStudios.Audio.Repository.csproj", "{804C1648-4728-42E9-9119-7170FBCFEB7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3D4F1242-34BD-49CE-9448-5778162A962F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D4F1242-34BD-49CE-9448-5778162A962F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D4F1242-34BD-49CE-9448-5778162A962F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D4F1242-34BD-49CE-9448-5778162A962F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BA69CE9A-622E-4467-B25B-6CEA4A641C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BA69CE9A-622E-4467-B25B-6CEA4A641C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA69CE9A-622E-4467-B25B-6CEA4A641C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{1A41D9D4-8174-4E1C-8A12-520863D0A8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A41D9D4-8174-4E1C-8A12-520863D0A8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A41D9D4-8174-4E1C-8A12-520863D0A8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804C1648-4728-42E9-9119-7170FBCFEB7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804C1648-4728-42E9-9119-7170FBCFEB7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804C1648-4728-42E9-9119-7170FBCFEB7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804C1648-4728-42E9-9119-7170FBCFEB7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

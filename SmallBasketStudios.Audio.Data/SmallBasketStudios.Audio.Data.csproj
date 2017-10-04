@@ -9,8 +9,4 @@
     <PackageReference Include="MongoDB.Driver.GridFS" Version="2.4.4" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\SmallBasketStudios.Audio.Repository\SmallBasketStudios.Audio.Repository.csproj" />
-  </ItemGroup>
-
 </Project>

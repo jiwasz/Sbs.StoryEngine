@@ -32,7 +32,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\SmallBasketStudios.Audio.Repository\SmallBasketStudios.Audio.Repository.csproj" />
     <ProjectReference Include="..\SmallBasketStudios.Audio.Data\SmallBasketStudios.Audio.Data.csproj" />
   </ItemGroup>
 
