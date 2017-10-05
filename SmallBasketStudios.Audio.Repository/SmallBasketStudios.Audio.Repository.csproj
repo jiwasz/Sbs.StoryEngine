@@ -6,8 +6,19 @@
 
   <ItemGroup>
     <PackageReference Include="Alexa.NET" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.0.0" />
     <PackageReference Include="MongoDB.Driver" Version="2.4.4" />
+    <PackageReference Include="MongoDB.Driver.GridFS" Version="2.4.4" />
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmallBasketStudios.Audio.Data\SmallBasketStudios.Audio.Data.csproj" />
+    <ProjectReference Include="..\SmallBasketStudios.Audio.Models\SmallBasketStudios.Audio.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>
